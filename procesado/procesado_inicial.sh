@@ -1,6 +1,6 @@
 #!/bin/bash
 # author: Paula de Blas
-# Transformar los BCF en VCF con bcftools y quitar las variantes en el cromosoma mitocondrial solo en la carpeta de delly, y separar variantes en PASS y No_PASS en todas las subcarpetas.
+# Transformar los BCF en VCF con bcftools, quitar las variantes en el cromosoma mitocondrial solo en la carpeta de delly, y separar variantes en PASS y No_PASS en todas las subcarpetas.
 carpeta_entrada="$1"
 # Procesar solo la carpeta "delly" para convertir BCF a VCF y quitar variantes en el cromosoma mitocondrial
 delly_dir="$carpeta_entrada/delly"
