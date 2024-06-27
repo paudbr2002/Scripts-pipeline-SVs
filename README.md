@@ -3,6 +3,7 @@ Protocolo bioinformático para el procesado de los archivos VCF de 3 "variant ca
 
 # ¿Como correr esta pipeline?
 Los archivos de la muestra que se desee analizar debe de estar en un mismo directorio organizados de la siguiente manera:
+> [!Por ejemplo]
 - /0032_0032/
     - Manta/
           Manta_0032.vcf
