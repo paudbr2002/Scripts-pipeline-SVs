@@ -162,4 +162,4 @@ for tipo in "${tipos_SV[@]}"; do
     fi
 done
 
-echo "Archivo final de SV mergeado se encuentra en $output_final."
+echo "Archivo final de SV merged se encuentra en $output_final."
