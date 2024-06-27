@@ -23,7 +23,7 @@ De esta forma solo se tiene que ejecutar el siguiente comando:
 todas las variantes incluyendo las detectadas por varios programas. Los scripts destinados al procesado de los VCF se recuadran en
 rojo y los destinados a la fusión de las variantes en un solo archivo en naranja. DEL = Deleción, INS= Inserción, DUP =
 Duplicación, TRA = Translocación, INV= Inversión.
-](https://github.com/paudbr2002/Scripts-pipeline-SVs/blob/main/Esquema_pipe.png)
+](https://github.com/paudbr2002/Scripts-pipeline-SVs/blob/main/Esquema_pipeline.png)
 
 ## Versiones ##
 bcftools 1.15, bedtools 2.27.1, BEDOPS v2.4.41, Python 3.12.3, Bash 5.0.17, R 4.4.0
