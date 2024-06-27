@@ -24,6 +24,8 @@ todas las variantes incluyendo las detectadas por varios programas. Los scripts 
 rojo y los destinados a la fusión de las variantes en un solo archivo en naranja. DEL = Deleción, INS= Inserción, DUP =
 Duplicación, TRA = Translocación, INV= Inversión.
 ](https://github.com/paudbr2002/Scripts-pipeline-SVs/blob/main/Esquema_pipeline.png)
-
+Inicialmente se crean directorios para filtrar las variantes con calidad “PASS”, se transforman los archivos VCF en BED y vía diferentes scripts se obtienen los archivos formateados de cada programa para cada SV.
+Posteriormente se separan los SV por genotipo y se ordenan y agrupan las variantes por coordenadas. Se utilizan scripts específicos para procesar diferentes tipos de SV (en inversiones y deleciones se
+utiliza la librería bedtools merge) y se añaden las anotaciones necesarias. Finalmente, todos los archivos se combinan en un archivo final con un formato específico (Tabla Suplementaria 1), que contiene todas las variantes agrupadas por coordenadas y la información sobre el solapamiento de la variante de cada programa con el consenso.
 ## Versiones ##
 bcftools 1.15, bedtools 2.27.1, BEDOPS v2.4.41, Python 3.12.3, Bash 5.0.17, R 4.4.0
