@@ -17,7 +17,7 @@ fi
 # Carpeta de entrada
 carpeta_entrada="$1"
 
-/mnt/tblab/paula/scripts_pipe/procesado/procesado_inicial3.sh "$carpeta_entrada"
+/mnt/tblab/paula/scripts_pipe/procesado/procesado_inicial.sh "$carpeta_entrada"
 
 echo "Archivos separados en PASS y no PASS"
 
