@@ -29,3 +29,5 @@ Posteriormente se separan los SV por genotipo y se ordenan y agrupan las variant
 utiliza la librería bedtools merge) y se añaden las anotaciones necesarias. Finalmente, todos los archivos se combinan en un archivo final con un formato específico (Tabla Suplementaria 1), que contiene todas las variantes agrupadas por coordenadas y la información sobre el solapamiento de la variante de cada programa con el consenso.
 ## Versiones ##
 bcftools 1.15, bedtools 2.27.1, BEDOPS v2.4.41, Python 3.12.3, Bash 5.0.17, R 4.4.0
+## Autora ##
+Paula de Blas Rioja 2024
