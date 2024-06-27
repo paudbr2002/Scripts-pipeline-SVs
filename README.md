@@ -19,7 +19,11 @@ De esta forma solo se tiene que ejecutar el siguiente comando:
 
 ## Esquema funcionamiento general ##
 
-
+![. Flujo de trabajo de los scripts incorporados para procesar los VCF de cada programa y obtener un único archivo con
+todas las variantes incluyendo las detectadas por varios programas. Los scripts destinados al procesado de los VCF se recuadran en
+rojo y los destinados a la fusión de las variantes en un solo archivo en naranja. DEL = Deleción, INS= Inserción, DUP =
+Duplicación, TRA = Translocación, INV= Inversión.
+](https://www.canva.com/design/DAGJUFlLyz8/9X5Crutbigm7ziRjYaAePQ/edit)
 
 ## Versiones ##
 bcftools 1.15, bedtools 2.27.1, BEDOPS v2.4.41, Python 3.12.3, Bash 5.0.17, R 4.4.0
